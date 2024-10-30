@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "e-catworld-scraper"
+version = "0.1.0"
+description = ""
+authors = ["zaidejaz <zaidejaz521@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+selenium = "^4.25.0"
+python-docx = "^1.1.2"
+htmldocx = "^0.0.6"
+tqdm = "^4.66.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
